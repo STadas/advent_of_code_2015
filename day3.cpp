@@ -101,7 +101,6 @@ int calc (bool p2)
 
 			x2_pos = x_temp;
 			y2_pos = y_temp;
-
 		}
 	}
 
