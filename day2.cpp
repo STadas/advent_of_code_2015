@@ -11,7 +11,7 @@ int main()
 	int res_1 = 0;
 	int res_2 = 0;
 
-	while (std::getline(fin, line))
+	while (getline(fin, line))
 	{
 		std::stringstream ss(line);
 

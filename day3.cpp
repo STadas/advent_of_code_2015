@@ -22,7 +22,7 @@ int calc (bool p2)
 	std::string input = "";
 	std::ifstream fin;
 	fin.open("day3input");
-	std::getline(fin, input);
+	getline(fin, input);
 	fin.close();
 
 	for (int i = 0; i < input.length(); i++)
