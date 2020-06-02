@@ -133,13 +133,6 @@ int calc(std::vector<std::string> input, bool part2)
 	return res;
 }
 
-int part2(std::vector<std::string> input)
-{
-	int res = 0;
-	//TODO
-	return res;
-}
-
 int main()
 {
 	std::ifstream fin;
