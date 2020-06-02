@@ -11,7 +11,7 @@ void give_present(int x_pos, int y_pos, int &res, std::vector<std::vector<bool>>
 	}
 }
 
-int calc (bool p2)
+int calc(bool p2)
 {
 	std::vector<bool> init(1, false);
 	std::vector<std::vector<bool>> grid(1, init);

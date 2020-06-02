@@ -52,7 +52,7 @@ int part1(std::vector<std::string> input)
 	return res;
 }
 
-int part2 (std::vector<std::string> input)
+int part2(std::vector<std::string> input)
 {
 	int res = 0;
 	for (auto line = begin(input); line != end(input); line++)
@@ -86,19 +86,17 @@ int part2 (std::vector<std::string> input)
 
 int main()
 {
-	std::string line = "";
-
 	std::ifstream fin;
 	fin.open("day5input");
 	std::vector<std::string> input;
+	std::string line = "";
 
 	while (getline(fin, line))
 	{
 		input.push_back(line);
 	}
-
-
 	fin.close();
+
 	std::cout << "part1: " << part1(input) << std::endl;
 	std::cout << "part2: " << part2(input) << std::endl;
 }
