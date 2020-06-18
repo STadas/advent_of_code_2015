@@ -160,34 +160,34 @@ void do_switch(std::vector<string> line, std::map<string, uint16_t> &wire, std::
 
 		switch (stoop(line[1]))
 		{
-		case OP_AND:
-		{
-			wire[line.back()] = a & b;
-			wire_ch[line.back()] = 1;
-			break;
-		}
-		case OP_OR:
-		{
-			wire[line.back()] = a | b;
-			wire_ch[line.back()] = 1;
-			break;
-		}
-		case OP_LSHIFT:
-		{
-			wire[line.back()] = a << b;
-			wire_ch[line.back()] = 1;
-			break;
-		}
-		case OP_RSHIFT:
-		{
-			wire[line.back()] = a >> b;
-			wire_ch[line.back()] = 1;
-			break;
-		}
-		default:
-		{
-			break;
-		}
+			case OP_AND:
+			{
+				wire[line.back()] = a & b;
+				wire_ch[line.back()] = 1;
+				break;
+			}
+			case OP_OR:
+			{
+				wire[line.back()] = a | b;
+				wire_ch[line.back()] = 1;
+				break;
+			}
+			case OP_LSHIFT:
+			{
+				wire[line.back()] = a << b;
+				wire_ch[line.back()] = 1;
+				break;
+			}
+			case OP_RSHIFT:
+			{
+				wire[line.back()] = a >> b;
+				wire_ch[line.back()] = 1;
+				break;
+			}
+			default:
+			{
+				break;
+			}
 		}
 	}
 }
