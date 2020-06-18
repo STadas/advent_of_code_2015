@@ -23,4 +23,6 @@ int main()
 	while (md5_str.substr(0, 6) != "000000");
 	std::cout << "part1: " << res1 << std::endl;
 	std::cout << "part2: " << res2 << std::endl;
+
+	return 0;
 }

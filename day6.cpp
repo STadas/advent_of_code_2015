@@ -148,4 +148,6 @@ int main()
 
 	std::cout << "part1: " << calc(input, 0) << std::endl;
 	std::cout << "part2: " << calc(input, 1) << std::endl;
+
+	return 0;
 }

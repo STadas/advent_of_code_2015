@@ -99,4 +99,6 @@ int main()
 
 	std::cout << "part1: " << part1(input) << std::endl;
 	std::cout << "part2: " << part2(input) << std::endl;
+
+	return 0;
 }

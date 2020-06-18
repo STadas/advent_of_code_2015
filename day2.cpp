@@ -63,6 +63,5 @@ int main()
 	std::cout << "part1: " << res_1 << std::endl;
 	std::cout << "part2: " << res_2 << std::endl;
 
-
 	return 0;
 }
