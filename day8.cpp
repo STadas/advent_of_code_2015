@@ -13,6 +13,8 @@ int main()
 
 	std::cout << "part1: " << calc(input) << std::endl;
 	std::cout << "part2: " << calc(input, true) << std::endl;
+
+	return 0;
 }
 
 std::vector<string> get_input()
